@@ -25,10 +25,22 @@
         <artifactId>apache</artifactId>
         <version>32</version>
     </parent>
+    <distributionManagement>
+        <repository>
+            <id>ri-karavan</id>
+            <name>provider-release</name>
+            <url>https://repo.croc.ru:443/artifactory/RocInt</url>
+        </repository>
+        <snapshotRepository>
+            <id>ri-karavan</id>
+            <name>provider-snapshot</name>
+            <url>https://repo.croc.ru:443/artifactory/RocInt</url>
+        </snapshotRepository>
+    </distributionManagement>
 
     <groupId>org.apache.camel</groupId>
     <artifactId>camel</artifactId>
-    <version>4.6.1-SNAPSHOT</version>
+    <version>4.6.2-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Camel</name>
@@ -95,13 +107,6 @@
         <system>jira</system>
         <url>https://issues.apache.org/jira/browse/CAMEL</url>
     </issueManagement>
-    <distributionManagement>
-        <site>
-            <id>apache.website</id>
-            <url>${site-repo-url}</url>
-        </site>
-    </distributionManagement>
-
     <properties>
 
         <!-- unify the encoding for all the modules -->

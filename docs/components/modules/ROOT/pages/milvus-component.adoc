@@ -1,1 +1,0 @@
-../../../../../components/camel-milvus/src/main/docs/milvus-component.adoc

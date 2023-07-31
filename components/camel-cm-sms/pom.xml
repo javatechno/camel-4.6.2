@@ -23,8 +23,20 @@
     <parent>
         <groupId>org.apache.camel</groupId>
         <artifactId>components</artifactId>
-        <version>4.6.1-SNAPSHOT</version>
+        <version>4.6.2-SNAPSHOT</version>
     </parent>
+    <distributionManagement>
+        <repository>
+            <id>ri-karavan</id>
+            <name>provider-release</name>
+            <url>https://repo.croc.ru:443/artifactory/RocInt</url>
+        </repository>
+        <snapshotRepository>
+            <id>ri-karavan</id>
+            <name>provider-snapshot</name>
+            <url>https://repo.croc.ru:443/artifactory/RocInt</url>
+        </snapshotRepository>
+    </distributionManagement>
 
     <artifactId>camel-cm-sms</artifactId>
     <packaging>jar</packaging>
@@ -56,7 +68,7 @@
             <artifactId>hibernate-validator</artifactId>
             <version>${hibernate-validator-version}</version>
         </dependency>
-        
+
         <dependency>
             <groupId>org.glassfish.expressly</groupId>
             <artifactId>expressly</artifactId>

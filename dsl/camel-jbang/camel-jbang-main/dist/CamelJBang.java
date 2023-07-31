@@ -18,10 +18,10 @@
  */
 
 //JAVA 17+
-//REPOS central=https://repo1.maven.org/maven2,apache-snapshot=https://repository.apache.org/content/groups/snapshots/
-//DEPS org.apache.camel:camel-bom:${camel.jbang.version:4.5.0}@pom
-//DEPS org.apache.camel:camel-jbang-core:${camel.jbang.version:4.5.0}
-//DEPS org.apache.camel.kamelets:camel-kamelets:${camel-kamelets.version:4.5.0}
+//REPOS central=>http://172.31.32.10:8083/repository/maven-karavan-proxy, ri-karavan=https://repo.croc.ru:443/artifactory/RocInt
+//DEPS org.apache.camel:camel-bom:${camel.jbang.version:4.6.2-SNAPSHOT}@pom
+//DEPS org.apache.camel:camel-jbang-core:${camel.jbang.version:4.6.2-SNAPSHOT}
+//DEPS org.apache.camel.kamelets:camel-kamelets:${camel-kamelets.version:4.6.1-SNAPSHOT}
 
 package main;
 

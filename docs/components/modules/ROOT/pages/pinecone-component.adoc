@@ -1,1 +1,0 @@
-../../../../../components/camel-pinecone/src/main/docs/pinecone-component.adoc

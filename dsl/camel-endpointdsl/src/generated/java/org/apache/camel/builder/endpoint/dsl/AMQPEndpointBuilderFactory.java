@@ -2368,7 +2368,8 @@ public interface AMQPEndpointBuilderFactory {
          * Default: 50
          * Group: advanced
          * 
-         * @param waitForProvisionCorrelationToBeUpdatedCounter the value to set
+         * @param waitForProvisionCorrelationToBeUpdatedCounter the value to
+         * set
          * @return the dsl builder
          */
         default AdvancedAMQPEndpointConsumerBuilder waitForProvisionCorrelationToBeUpdatedCounter(int waitForProvisionCorrelationToBeUpdatedCounter) {
@@ -2385,7 +2386,8 @@ public interface AMQPEndpointBuilderFactory {
          * Default: 50
          * Group: advanced
          * 
-         * @param waitForProvisionCorrelationToBeUpdatedCounter the value to set
+         * @param waitForProvisionCorrelationToBeUpdatedCounter the value to
+         * set
          * @return the dsl builder
          */
         default AdvancedAMQPEndpointConsumerBuilder waitForProvisionCorrelationToBeUpdatedCounter(String waitForProvisionCorrelationToBeUpdatedCounter) {
@@ -4756,7 +4758,8 @@ public interface AMQPEndpointBuilderFactory {
          * Default: 50
          * Group: advanced
          * 
-         * @param waitForProvisionCorrelationToBeUpdatedCounter the value to set
+         * @param waitForProvisionCorrelationToBeUpdatedCounter the value to
+         * set
          * @return the dsl builder
          */
         default AdvancedAMQPEndpointProducerBuilder waitForProvisionCorrelationToBeUpdatedCounter(int waitForProvisionCorrelationToBeUpdatedCounter) {
@@ -4773,7 +4776,8 @@ public interface AMQPEndpointBuilderFactory {
          * Default: 50
          * Group: advanced
          * 
-         * @param waitForProvisionCorrelationToBeUpdatedCounter the value to set
+         * @param waitForProvisionCorrelationToBeUpdatedCounter the value to
+         * set
          * @return the dsl builder
          */
         default AdvancedAMQPEndpointProducerBuilder waitForProvisionCorrelationToBeUpdatedCounter(String waitForProvisionCorrelationToBeUpdatedCounter) {
@@ -6315,7 +6319,8 @@ public interface AMQPEndpointBuilderFactory {
          * Default: 50
          * Group: advanced
          * 
-         * @param waitForProvisionCorrelationToBeUpdatedCounter the value to set
+         * @param waitForProvisionCorrelationToBeUpdatedCounter the value to
+         * set
          * @return the dsl builder
          */
         default AdvancedAMQPEndpointBuilder waitForProvisionCorrelationToBeUpdatedCounter(int waitForProvisionCorrelationToBeUpdatedCounter) {
@@ -6332,7 +6337,8 @@ public interface AMQPEndpointBuilderFactory {
          * Default: 50
          * Group: advanced
          * 
-         * @param waitForProvisionCorrelationToBeUpdatedCounter the value to set
+         * @param waitForProvisionCorrelationToBeUpdatedCounter the value to
+         * set
          * @return the dsl builder
          */
         default AdvancedAMQPEndpointBuilder waitForProvisionCorrelationToBeUpdatedCounter(String waitForProvisionCorrelationToBeUpdatedCounter) {
