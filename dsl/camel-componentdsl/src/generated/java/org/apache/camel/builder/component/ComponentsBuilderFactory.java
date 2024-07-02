@@ -113,6 +113,19 @@ public interface ComponentsBuilderFactory {
         return AsteriskComponentBuilderFactory.asterisk();
     }
     /**
+     * AtlasMap (camel-atlasmap)
+     * Transforms the message using an AtlasMap transformation.
+     * 
+     * Category: transformation
+     * Since: 3.7
+     * Maven coordinates: org.apache.camel:camel-atlasmap
+     * 
+     * @return the dsl builder
+     */
+    static org.apache.camel.builder.component.dsl.AtlasmapComponentBuilderFactory.AtlasmapComponentBuilder atlasmap() {
+        return org.apache.camel.builder.component.dsl.AtlasmapComponentBuilderFactory.atlasmap();
+    }
+    /**
      * Atmosphere Websocket (camel-atmosphere-websocket)
      * Expose WebSocket endpoints using the Atmosphere framework.
      * 

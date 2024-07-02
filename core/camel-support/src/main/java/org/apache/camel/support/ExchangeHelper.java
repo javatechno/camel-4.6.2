@@ -46,6 +46,7 @@ import org.apache.camel.NoSuchPropertyException;
 import org.apache.camel.NoTypeConversionAvailableException;
 import org.apache.camel.Route;
 import org.apache.camel.RuntimeCamelException;
+import org.apache.camel.SafeCopyProperty;
 import org.apache.camel.TypeConversionException;
 import org.apache.camel.VariableAware;
 import org.apache.camel.WrappedFile;
