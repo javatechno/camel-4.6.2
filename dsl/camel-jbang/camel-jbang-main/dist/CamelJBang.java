@@ -18,7 +18,7 @@
  */
 
 //JAVA 17+
-//REPOS central=http://172.31.32.10:8083/repository/maven-karavan-proxy, ri-karavan=https://repo.croc.ru:443/artifactory/RocInt
+//REPOS central=http://217.73.63.45:8081/repository/maven-karavan-proxy/, ri-karavan=https://repo.croc.ru:443/artifactory/RocInt
 //DEPS org.apache.camel:camel-bom:${camel.jbang.version:4.6.2-SNAPSHOT}@pom
 //DEPS org.apache.camel:camel-jbang-core:${camel.jbang.version:4.6.2-SNAPSHOT}
 //DEPS org.apache.camel.kamelets:camel-kamelets:${camel-kamelets.version:4.6.2-SNAPSHOT}
